@@ -15,6 +15,13 @@ class MyApp extends StatelessWidget {
           title: Text("MyApp"),
           backgroundColor: Colors.red
         ),
+        body : Container(
+          alignment:Alignment.topCenter,
+          child : Text(
+          'BERITA TERBARU     PERTANDINGAN HARI INI',
+          style: TextStyle(fontSize: 15, height :3.0),
+          )
+        )
       ),
     );
   }
